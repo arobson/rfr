@@ -1,0 +1,29 @@
+{
+  "name": "rfr",
+  "version": "1.0.0",
+  "description": "HTTP service to send RF signals over a 433Mhz transmitter for raspberry pi",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arobson/rfr.git"
+  },
+  "keywords": [
+    "rf",
+    "433",
+    "HTTP"
+  ],
+  "author": "Alex Robson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arobson/rfr/issues"
+  },
+  "dependencies": {
+    "autohost": "0.5.x",
+    "json-patch": "^0.5.0",
+    "lodash": "4.6.x",
+    "rcswitch-gpiomem": "0.3.x",
+    "when": "^3.7.x"
+  },
+  "homepage": "https://github.com/arobson/rfr#readme"
+}
